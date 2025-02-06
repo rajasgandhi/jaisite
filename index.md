@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<img src="/docs/assets/images/about.jpg" width="60%"> 
+<img src="docs/assets/images/about.jpg" width="60%"> 
 <br/>
 <a href="https://www.linkedin.com/in/jai-gandhi/" style="color: inherit;" target="_blank"><i class="fa fa-linkedin"></i></a>
 <a href="https://www.instagram.com/_jaigandhi/" style="color: inherit;" target="_blank"><i class="fa fa-instagram"></i></a>
