@@ -1,6 +1,6 @@
 <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
      styles, `#sidebar-checkbox` for behavior. -->
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" {% if page.title =="Home" or page.title=="Creative" or page.title=="Melting Pot Social Club"%}checked{% endif %}>
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
@@ -17,13 +17,6 @@
     {% endcomment %}
 
     {% assign pages_list = site.pages | sort:"url" %}
-    <!-- {% for node in pages_list %}
-      {% if paginator == null or paginator.page == 1 %}
-        {% if node.layout == "page" or node.layout == "custompage" %}
-          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}">{{ node.title }}</a>
-        {% endif %}
-      {% endif %}
-    {% endfor %} -->
     {% for node in pages_list %}
     {% if node.layout == "page" or node.layout == "custompage" or node.is_blog %}
       {% if node.is_blog %}
@@ -36,7 +29,6 @@
     {% endif %}
   {% endfor %}
 
-    <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
   </nav>
 
   <div class="sidebar-item">
