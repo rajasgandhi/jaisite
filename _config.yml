@@ -3,7 +3,7 @@
 title:               'Jai Gandhi'
 tagline:             ''
 description:         'Jai Gandhi'
-url:                 http://jaigandhi.com
+url:                 https://rajasgandhi.github.io/jaisite
 baseurl:             ''
 paginate:            5
 paginate_path:       '/socialclub/page:num'
