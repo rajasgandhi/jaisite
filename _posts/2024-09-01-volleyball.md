@@ -5,6 +5,6 @@ title: Volleyball
 
 Day time outing at the Rhino Volleyball Court.
 
-  > ![Volleyball 1](/docs/assets/images/volleyball-1.jpeg) ![Volleyball 2](/docs/assets/images/volleyball-2.jpeg)
+  > <img src="/docs/assets/images/volleyball-1.jpeg" width="60%"> <img src="/docs/assets/images/volleyball-2.jpeg" width="60%">
 
 Casual team sports on a lovely day really brings out the best in everyone.
