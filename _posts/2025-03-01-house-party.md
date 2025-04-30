@@ -1,6 +1,6 @@
 ---
 layout: post
-title: House Party #?
+title: "House Party #?"
 date: 2025-03-01
 ---
 
