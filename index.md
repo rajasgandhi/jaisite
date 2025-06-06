@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+nav_order: 1
 ---
 
 <img src="{{ site.url }}/assets/images/about.jpg" width="60%"> 
