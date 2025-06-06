@@ -1,6 +1,6 @@
 ---
 layout: custompage
-title: Photography
+title: Shot on iPhone
 ---
 
 <div class="photography-container">
