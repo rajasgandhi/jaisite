@@ -1,6 +1,7 @@
 ---
 layout: custompage
 title: Shot on iPhone
+nav_order: 4
 ---
 
 <div class="photography-container">
