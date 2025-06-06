@@ -1,10 +1,10 @@
 # Setup
-# Change this later
+# Production configuration
 title:               'Jai Gandhi'
 tagline:             ''
 description:         'Jai Gandhi'
-url:                 https://rajasgandhi.github.io/jaisite
-baseurl:             ''
+url:                 https://jaigandhi.life
+baseurl:             ''  # Production baseurl (empty for root domain)
 paginate:            5
 paginate_path:       '/socialclub/page:num'
 permalink:           pretty
