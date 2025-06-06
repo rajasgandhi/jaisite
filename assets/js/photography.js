@@ -1,29 +1,4 @@
 document.addEventListener("DOMContentLoaded", function() {
-  // Sample photo data - will be replaced with actual photos later
-  const samplePhotos = [
-    { 
-      url: '/docs/assets/images/cocktail-party-1.jpg',
-      date: 'December 1, 2023',
-      location: 'Boston, MA'
-    },
-    { 
-      url: '/docs/assets/images/cocktail-party-2.jpg',
-      date: 'December 1, 2023',
-      location: 'Boston, MA'
-    },
-    { 
-      url: '/docs/assets/images/game-night-1.jpeg',
-      date: 'January 1, 2025',
-      location: 'Cambridge, MA'
-    },
-    { 
-      url: '/docs/assets/images/game-night-2.jpeg',
-      date: 'January 1, 2025',
-      location: 'Cambridge, MA'
-    }
-    // More photos will be added later
-  ];
-
   const gallery = document.getElementById('photography-gallery');
   const photoModal = document.getElementById('photo-modal');
   const modalImg = document.getElementById('modal-img');
@@ -38,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
   // Create photo bricks
   function createPhotoBricks() {
-    samplePhotos.forEach((photo, index) => {
+    photos.forEach((photo, index) => {
       const brick = document.createElement('div');
       brick.className = 'photo-brick';
       brick.style.backgroundImage = `url(${photo.url})`;
@@ -60,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
       // Add click event for enlarging
       brick.addEventListener('click', function(e) {
         if (!isDragging) {
-          const photoData = samplePhotos[this.dataset.index];
+          const photoData = photos[this.dataset.index];
           modalImg.src = photoData.url;
           modalDate.textContent = photoData.date;
           modalLocation.textContent = photoData.location;
