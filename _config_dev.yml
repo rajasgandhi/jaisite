@@ -1,0 +1,10 @@
+# Development settings
+# This file contains overrides for local development
+# Usage: bundle exec jekyll serve --config _config.yml,_config_dev.yml
+
+# Development URL and path settings
+url: http://localhost:4000
+baseurl: ''
+
+# Disable analytics in development
+google_analytics_id: ''
